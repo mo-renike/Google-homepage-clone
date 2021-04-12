@@ -35,14 +35,14 @@ nav a{
     padding: 10px;
 }
 .icon{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 .pic{
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     position: relative;
     bottom: 5px;
 }
@@ -59,26 +59,31 @@ nav a{
 }
 
 input[type="text"]{
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #d3d3d3;
-    border-radius: 40px;
+    width: 90%;
     outline: none;
+    border: none;
 }
-input[type="text"]:hover{
-    box-shadow: 2px 1px 1px 1px #f0f0f0;
+
+.searchBar:hover{
+    box-shadow: 2px 1px 1px 1px #e1e0e0;
 }
 .searchBar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 40px;
+    width: 100%;
+    padding: 1rem;
 }
+
 .mini{
     height: 15px;
     width: auto;
 }
+
+
 .buttons{
     padding: 1rem;
     border: none;
