@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background: white;
+    font-family: Rubik, sans-serif;
+    font-size: 0.8em;
+    color: #0e0e0e;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.intro{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 40px;
+    outline: none;
+}
+input[type="text"]:hover{
+    box-shadow: 2px 1px 1px 1px #f0f0f0;
+}
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.mini{
+    height: 15px;
+    width: auto;
+}
+.buttons{
+    padding: 1rem;
+    border: none;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 1em;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.offer a{
+    text-decoration: none;
+}
+.offer a:hover{
+    text-decoration: underline;
+}
+.btn{
+    background-color: #f2f2f2;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+}
+
+
+.btn:hover{
+    box-shadow: 2px 1px 1px 1px #bfbfbf;
+}
+.footer{
+    background-color: #f2f2f2;
+    color: gray;
+}
+.footer a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.bottom1{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.bottom3{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+
+}
+.bottom2{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+
+}
+
+@media screen and (max-width: 760px) {
+.footer2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom1, bottom3{
+    justify-content: space-between;
+    width: 50%;
+}
+.bottom2{
+    display: none;
+}
+}
